@@ -1,12 +1,12 @@
 // MP 1
-#include "wb.h"
+#include "../wb.h"
 
 __global__ void vecAdd(float *in1, float *in2, float *out, int len) {
   //@@ Insert code to implement vector addition here
 }
 
 int main(int argc, char **argv) {
-  wbArg_t args;
+  wbArg_t args{};
   int inputLength;
   float *hostInput1;
   float *hostInput2;

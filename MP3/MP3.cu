@@ -1,5 +1,5 @@
 
-#include "wb.h"
+#include "../wb.h"
 
 #define wbCheck(stmt)                                                     \
   do {                                                                    \
